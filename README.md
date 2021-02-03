@@ -36,26 +36,40 @@ https://github.com/smoothnlp/SmoothNLPgithub.com
 
 min_n=2, max_n=4，因此最大的词只能是4，最小词频5
 
+### 方法3：
+
+hanlp
+
+跟smoothnlp类似，使用信息熵和互信息
+
+https://github.com/hankcs/pyhanlpgithub.com
+
 ## 结果对比：
 
-使用jieba分词对语料进行分词得到词表，将上述两种算法所得词表与jieba分词作比较，看看有哪些词是jieba分词结果没有的，是否为’新词‘
+使用jieba分词对语料进行分词得到词表，将上述两种算法所得词表与jieba分词作比较，看看有哪些词是jieba分词结果没有的，是否为’新词‘[hankcs/pyhanlp](https://github.com/hankcs/pyhanlp)使用jieba分词对语料进行分词得到词表，将上述两种算法所得词表与jieba分词作比较，看看有哪些词是jieba分词结果没有的，是否为’新词‘
 
-smoothnlp是内部凝聚度加左右信息熵得分排序，苏神的算法也按凝聚度做个排序，结果如下
+结果如下:
 
-![img](https://pic1.zhimg.com/80/v2-6470175f5c9535cc66501dc1fa4933d5_720w.png)
+![img](https://pic4.zhimg.com/80/v2-199658e799d30e2b3520f192d2a9bbc0_720w.png)
 
 可以看到smoothnlp top50有36氪、机器学习、新浪微博、比特币等，但这些可能是jieba分成了机器、学习，新浪、微博之类的
 
-苏神的算法top50有很多的人名，还有钢铁侠、蚂蜂窝、蜗牛邦、石墨烯、树莓派、抓钱猫、捞月狗、纸牌屋、迷你仓等新兴词汇
+苏神的算法top50有很多的人名，还有钢铁侠、蚂蜂窝、蜗牛邦、石墨烯、树莓派、抓钱猫、捞月狗、纸牌屋、迷你仓、荔枝FM、垂直导购等新兴词汇，并且通过凝固片段的自由扩展获得词的边界，而不需要另外通过边界熵来确定边界，使得长度可以任意长。
 
-再比较下两者互相没有的词：
+再比较下苏神算法里识别出而smoothnlp和hanlp里没有的词：
 
-![img](https://pic4.zhimg.com/80/v2-ee92a7200ab29c8fa161019a9591bb24_720w.png)
+![img](https://pic2.zhimg.com/80/v2-6ee6d5b2816537bdda696126a73657cb_720w.png)
 
-上面是苏神算法里有而smoothnlp里没有的，下面反之
+上面是苏神算法里有而smoothnlp里没有的，下面是hanlp里没有的
 
-上面的抓钱猫、纸牌屋、迷你仓、蜜爸妈都是很新的词，还有海底捞、余额宝、KK直播、科大讯飞
+最后看下苏神算法里有，而smoothnlp和hanlp都没有识别出来的词：
 
-## 结论
+![img](https://pic1.zhimg.com/80/v2-572a31b28ef390d7aee8f0b96260e00d_720w.png)
 
-初次使用，苏神的算法结果明显好于smoothnlp（也可能我的打开方式不对），不过效率需要优化下
+![img](https://pic1.zhimg.com/80/v2-7055fc520797edab790b0747591d4276_720w.png)
+
+可以看到有个很多新词是smoothnlp hanlp没有识别到的，例如很多人名，还有捞月狗、抓财猫、唐驳虎、纸牌屋、迷你仓、KK直播、豆瓣小组、猫眼电影、科大讯飞、曲面屏，普罗大众等
+
+结论
+
+初次使用，苏神的算法结果明显好于smoothnlp、hanlp（也可能我的打开方式不对），不过效率需要优化下

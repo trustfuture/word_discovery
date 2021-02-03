@@ -161,17 +161,16 @@ if __name__ == '__main__':
     corpus_words_count = w.split_corpus(filtered_ngrams)
     result = w.recall(corpus_words_count, filtered_ngrams)
     jieba_cut_words = load_jieba_cut_words('jieba_cut_words.txt')
-    # final = [i for i in result if i not in jieba_cut_words]
-    # write2txt('36kr_su.txt', final)
 
     result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
-    result_score = {i: filtered_ngrams.get(i) for i, _ in result.items() if i in filtered_ngrams}
-    result_score = dict(sorted(result_score.items(), key=lambda item: item[1], reverse=True))
-    # write2json('36kr_su.json', {i: j for i, j in result.items() if len(i) >= 2})
-    final = [i for i, j in result_score.items() if len(i) >= 2 and i not in jieba_cut_words]
-    write2txt('36kr_su.txt', final)
-    time_dif = get_time_dif(start_time)
-    print('Time usage: %s' % time_dif)
+    print(result)
+    # result_score = {i: filtered_ngrams.get(i) for i, _ in result.items() if i in filtered_ngrams}
+    # result_score = dict(sorted(result_score.items(), key=lambda item: item[1], reverse=True))
+    # # write2json('36kr_su.json', {i: j for i, j in result.items() if len(i) >= 2})
+    # final = [i for i, j in result_score.items() if len(i) >= 2 and i not in jieba_cut_words]
+    # write2txt('36kr_su.txt', final)
+    # time_dif = get_time_dif(start_time)
+    # print('Time usage: %s' % time_dif)
 
 
 

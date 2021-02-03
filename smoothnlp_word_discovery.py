@@ -5,7 +5,9 @@ import time
 
 start_time = time.time()
 corpus = open('36kr.txt', 'r', encoding='utf-8')
-result = extract_phrase(corpus, top_k=10000, chunk_size=1000, min_n=2, max_n=4, min_freq=10)
+result = extract_phrase(corpus, order_by='score', top_k=5000, chunk_size=1000, min_n=2, max_n=4, min_freq=10)
+print(len(result))
+print(result)
 jieba_cut_words = load_jieba_cut_words('jieba_cut_words.txt')
 final = [i for i in result if i not in jieba_cut_words]
 # write2json('36kr_smooth.json', result)

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44395beb-55d4-4405-9916-8628f072958a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hanlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36kr_smooth.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/36kr_smooth.txt" beforeDir="false" afterPath="$PROJECT_DIR$/36kr_smooth.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/36kr_su.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smoothnlp_word_discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/smoothnlp_word_discovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/su_word_discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/su_word_discovery.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="e43ba790-418f-45be-913f-ff2a8db87dfd" />
+  <component name="ProjectId" id="1nkI0JFnAiIsTI2TN6bDtG0qTtc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.compare">
+    <configuration name="compare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="word_discovery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hanlp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="word_discovery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanlp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ngram_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="word_discovery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/opt/anaconda3/envs/pytorch/lib/python3.7/site-packages/smoothnlp/algorithm/phrase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/opt/anaconda3/envs/pytorch/lib/python3.7/site-packages/smoothnlp/algorithm/phrase/ngram_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="smoothnlp_word_discovery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="word_discovery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smoothnlp_word_discovery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="su_word_discovery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="word_discovery" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/su_word_discovery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.compare" />
+        <item itemvalue="Python.hanlp" />
+        <item itemvalue="Python.smoothnlp_word_discovery" />
+        <item itemvalue="Python.ngram_utils" />
+        <item itemvalue="Python.su_word_discovery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44395beb-55d4-4405-9916-8628f072958a" name="Default Changelist" comment="" />
+      <created>1611927437690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611927437690</updated>
+      <workItem from="1611927438934" duration="2772000" />
+      <workItem from="1612144645492" duration="7501000" />
+      <workItem from="1612249217338" duration="14911000" />
+      <workItem from="1612335828372" duration="8607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1876" height="280" key="GridCell.Tab.0.bottom" timestamp="1612344754173">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.0.bottom/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977785" />
+    <state width="1876" height="280" key="GridCell.Tab.0.bottom/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612344754173" />
+    <state width="1876" height="308" key="GridCell.Tab.0.bottom/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214977" />
+    <state width="1345" height="543" key="GridCell.Tab.0.bottom/51.23.1389.877@51.23.1389.877" timestamp="1612014468686" />
+    <state width="1876" height="280" key="GridCell.Tab.0.center" timestamp="1612344754172">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.0.center/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977785" />
+    <state width="1876" height="280" key="GridCell.Tab.0.center/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612344754172" />
+    <state width="1876" height="308" key="GridCell.Tab.0.center/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214977" />
+    <state width="1345" height="543" key="GridCell.Tab.0.center/51.23.1389.877@51.23.1389.877" timestamp="1612014468684" />
+    <state width="1876" height="280" key="GridCell.Tab.0.left" timestamp="1612344754170">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.0.left/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977784" />
+    <state width="1876" height="280" key="GridCell.Tab.0.left/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612344754170" />
+    <state width="1876" height="308" key="GridCell.Tab.0.left/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214977" />
+    <state width="1345" height="543" key="GridCell.Tab.0.left/51.23.1389.877@51.23.1389.877" timestamp="1612014468683" />
+    <state width="1876" height="280" key="GridCell.Tab.0.right" timestamp="1612344754173">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.0.right/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977785" />
+    <state width="1876" height="280" key="GridCell.Tab.0.right/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612344754173" />
+    <state width="1876" height="308" key="GridCell.Tab.0.right/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214977" />
+    <state width="1345" height="543" key="GridCell.Tab.0.right/51.23.1389.877@51.23.1389.877" timestamp="1612014468685" />
+    <state width="1876" height="306" key="GridCell.Tab.1.bottom" timestamp="1612343233329">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.1.bottom/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977786" />
+    <state width="1876" height="306" key="GridCell.Tab.1.bottom/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612343233329" />
+    <state width="1345" height="478" key="GridCell.Tab.1.bottom/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214973" />
+    <state width="1345" height="543" key="GridCell.Tab.1.bottom/51.23.1389.877@51.23.1389.877" timestamp="1612014469818" />
+    <state width="1876" height="306" key="GridCell.Tab.1.center" timestamp="1612343233328">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.1.center/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977786" />
+    <state width="1876" height="306" key="GridCell.Tab.1.center/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612343233328" />
+    <state width="1345" height="478" key="GridCell.Tab.1.center/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214973" />
+    <state width="1345" height="543" key="GridCell.Tab.1.center/51.23.1389.877@51.23.1389.877" timestamp="1612014469817" />
+    <state width="1876" height="306" key="GridCell.Tab.1.left" timestamp="1612343233327">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.1.left/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977786" />
+    <state width="1876" height="306" key="GridCell.Tab.1.left/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612343233327" />
+    <state width="1345" height="478" key="GridCell.Tab.1.left/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214973" />
+    <state width="1345" height="543" key="GridCell.Tab.1.left/51.23.1389.877@51.23.1389.877" timestamp="1612014469816" />
+    <state width="1876" height="306" key="GridCell.Tab.1.right" timestamp="1612343233328">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state width="1876" height="276" key="GridCell.Tab.1.right/51.23.1389.877/-141.-1057.1920.1057@-141.-1057.1920.1057" timestamp="1612279977786" />
+    <state width="1876" height="306" key="GridCell.Tab.1.right/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612343233328" />
+    <state width="1345" height="478" key="GridCell.Tab.1.right/51.23.1389.877/1440.-85.1920.1057@51.23.1389.877" timestamp="1612333214973" />
+    <state width="1345" height="543" key="GridCell.Tab.1.right/51.23.1389.877@51.23.1389.877" timestamp="1612014469817" />
+    <state x="2065" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1612251388080">
+      <screen x="1440" y="-85" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="150" width="670" height="676" key="search.everywhere.popup/51.23.1389.877/1440.-85.1920.1057@1440.-85.1920.1057" timestamp="1612251388080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/su_word_discovery.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hanlp.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/word_discovery$ngram_utils.coverage" NAME="ngram_utils Coverage Results" MODIFIED="1612337575141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/opt/anaconda3/envs/pytorch/lib/python3.7/site-packages/smoothnlp/algorithm/phrase" />
+    <SUITE FILE_PATH="coverage/word_discovery$trie.coverage" NAME="trie Coverage Results" MODIFIED="1612156165549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/word_discovery$utils.coverage" NAME="utils Coverage Results" MODIFIED="1612250936622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/word_discovery$su_word_discovery.coverage" NAME="su_word_discovery Coverage Results" MODIFIED="1612336654445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/word_discovery$smoothnlp_word_discovery.coverage" NAME="smoothnlp_word_discovery Coverage Results" MODIFIED="1612343233306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/word_discovery$compare.coverage" NAME="compare Coverage Results" MODIFIED="1612344754160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/word_discovery$hanlp.coverage" NAME="hanlp Coverage Results" MODIFIED="1612343236055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
